@@ -1,0 +1,1 @@
+/* This file should be use for all common warning */

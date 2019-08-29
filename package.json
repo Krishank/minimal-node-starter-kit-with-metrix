@@ -1,0 +1,32 @@
+{
+  "name": "node-starter-kit",
+  "version": "1.0.0",
+  "description": "This is basic setup for Node starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive src/**/*.spec.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishank/cash24.git"
+  },
+  "keywords": [
+    "cash24"
+  ],
+  "author": "Krishank Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krishank/cash24/issues"
+  },
+  "homepage": "https://github.com/Krishank/cash24#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.0"
+  }
+}
